@@ -1,0 +1,36 @@
+HOW TO RUN::
+	1: Frist you have to open the folder(studentstudyportal) in VS code editor.
+	2: open command prompt, and goto the folder(studentstudyportal). 
+	3: First install django in the system.
+	4: install some library using command prompt
+	      	a: ( pip install wikipedia )
+		b: ( pip install youtube-search-python )
+	5: now in command prompt run command( python manage.py runserver ).
+	6: now the server will be started.
+	7: now in browser run localhost and the web page will be displayed.
+	
+
+DESCIPTION OF PROJECT FOLDERS::
+
+	1: dashboard--> 
+		Folder: 
+			Templates--> contains all html files of various pages like home,
+				     notes, youtube etc
+		Files: 
+			a: views- this python file contain all the functions which accepts 
+			   the request from url and redirect all the information of 
+			   form data and functions which is performed on the data to correspong html page.
+
+			b: forms- all the forms releted to different web pages like notes, 
+			   youtube search bar, homework all are present in this file.
+
+			c: url- this file contain the path of file which redirect the request
+			   from web pages to corresponding function in views.
+
+			d: models- we create the database tables in this file.
+	
+	2: static--> static contain all the css and images for our home page tabs.
+
+	3:studentstudyportal--> this folder contains the url and setting file for our porject.
+	
+	4: manage.py--> this file run the server for our project. 
